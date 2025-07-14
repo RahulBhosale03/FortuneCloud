@@ -1,9 +1,39 @@
-#box1{
+/* #box1{
     background-color: red;
     height: 100px;
     width: 100px;
     border: solid;
     float: right;
     
+} */
+ body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+.box{
+    height: 100px;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: solid;
+
+
+}
+#abc{
+    background-color: orange;
+    margin-right: 5px;
+}
+#def{
+    background-color: beige;
+    /* border: solid; */
+    margin-right: 5px;
+}
+#xyz{
+    background-color: green;
+    /* border: solid; */
+    margin-bottom: 5px;
 }
 
